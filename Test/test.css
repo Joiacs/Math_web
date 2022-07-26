@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#test-el{
+    width: 35%;
+}
+
+#noteParagraph {
+    font-style: italic;
+    margin: 10px 0px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+#inputEl2{
+    width: 25%;
+    margin: 20px 0px;
+}
+
+#Tfinal {
+    width: 20%;
+}
+
+#home-link{
+    margin: 5px 5px;
+}
+
+#euler-dropdown{
+    margin: 5px 5px;
+}
+
+#navBar {
+    background-color: rgba(211, 211, 211, 0.55);
+}
