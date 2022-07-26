@@ -23,21 +23,28 @@
         <header>
             <ul class="nav nav-pills" id="navBar">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="test.html" id="home-link">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#" id="home-link">Home</a>
                 </li>
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="euler-dropdown">
-                      Euler's Method
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="euler-dropdown">
+                      Differential Equations
                     </button>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="test.html">Graph Calculator</a></li>
-                      <li><a class="dropdown-item" href="#">Numerical vs Analytical</a></li>
+                      <li><a class="dropdown-item" href="EulerGraph.html">Euler Graph Calculator</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="physics-dropdown">
+                      Physics
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../Physics/RocketMotion/RocketMotion.html">Rocket Motion</a></li>
                     </ul>
                 </div>
             </ul>
         </header>
 
-        <h1>Euler's Method Graph Calculator For Differential Equations</h1>
+        <h1>Euler's Method Graph Calculator</h1>
         <div class="container text-center">
             <div id="myPlot" class="mx-auto" style="width:100%;max-width:700px; text-align: center;"></div>
         </div>
@@ -60,7 +67,7 @@
             <input type="text" aria-label="t0" value="0.1" class="form-control" id="input-el-3">
         </div>
 
-        <button id="render-btn" type="button" class="btn btn-primary">Submit</button>
+        <button id="render-btn" type="button" class="btn btn-primary">Calculate</button>
 
         <p id="noteParagraph">Notes:
             You must click submit after the initial condition is entered. <br>

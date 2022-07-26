@@ -31,10 +31,17 @@ h1{
 
 #home-link{
     margin: 5px 5px;
+    padding: 8px;
 }
 
 #euler-dropdown{
     margin: 5px 5px;
+    padding: 7px;
+}
+
+#physics-dropdown{
+    margin: 5px 5px;
+    padding: 7px;
 }
 
 #navBar {
