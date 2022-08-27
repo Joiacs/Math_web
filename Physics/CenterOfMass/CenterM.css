@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: rgb(8, 1, 31);
+    color: rgba(255, 255, 255, 0.814);
+}
+
+h1 {
+    text-align: center;
+    margin: 15px 0px;
+    color:white;
+    font-weight: bold;
+}
+
+#home-link{
+    margin: 5px 5px;
+    padding: 8px;
+}
+
+#euler-dropdown{
+    margin: 5px 5px;
+    padding: 7px;
+}
+
+#physics-dropdown{
+    margin: 5px 5px;
+    padding: 7px;
+}
+
+#navBar {
+    background-color: rgba(211, 211, 211, 0.55);
+}
