@@ -90,7 +90,7 @@ renderBTN.addEventListener("click", function () {
         let layout = {
             xaxis: {title: "Time(t)"},
             yaxis: {title: "y-axis"},
-            title: "Solution to the IVP"
+            title: "Solution to the IVP",
             };
                 
         Plotly.newPlot("myPlot", data, layout)
